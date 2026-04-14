@@ -104,7 +104,9 @@ button:active {
 }
 
 #mainContent {
-    height: 100vh;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
     background: linear-gradient(45deg, #ff0080, #ff8c00, #40e0d0);
     background-size: 400% 400%;
     animation: rainbow 10s infinite;
