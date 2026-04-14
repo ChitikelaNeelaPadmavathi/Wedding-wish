@@ -211,15 +211,7 @@ function applyCinematicEffect(img) {
     };
 
 });
-// 📱 FORCE LANDSCAPE MESSAGE
-function checkOrientation() {
-    if (window.innerHeight > window.innerWidth) {
-        alert("📱 Please rotate your phone for better experience 💖");
-    }
-}
 
-window.addEventListener("load", checkOrientation);
-window.addEventListener("resize", checkOrientation);
 
 
 
